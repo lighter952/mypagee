@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <header class="bg-gray-800 text-white py-4">
+        <a href="/"><h1 class="text-center">Mikalai Holias</h1></a>
+    </header>
+    <nav class="bg-gray-700 py-2">
+        <div class="container mx-auto flex justify-around">
+            <a href="/aboutme" class="text-white hover:underline">About me</a>
+            <a href="/gallery" class="text-white hover:underline">Gallery</a>
+            <a href="/contact" class="text-white hover:underline">Contact</a>
+        </div>
+    </nav>
+    <div class="container mx-auto mt-4 bg-white shadow-md rounded-md p-6">
+        <p class="text-gray-700 mb-4">My email: mikalai.holias@gmail.com or i can call you later </p>
+        <form action="#" method="post">
+            <div class="mb-4">
+                <label for="name" class="block text-gray-700">Name:</label>
+                <input type="text" id="name" name="name" class="form-input mt-1 block w-full border-2" required>
+            </div>
+            <div class="mb-4">
+                <label for="phone" class="block text-gray-700">Phone number:</label>
+                <input type="tel" id="phone" name="phone" class="form-input mt-1 block w-full border-2" required>
+            </div>
+            <div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">Отправить</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
